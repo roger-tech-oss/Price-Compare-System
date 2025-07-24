@@ -1,0 +1,91 @@
+/* src/styles/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f111a;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.navbar-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #a259ff;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #d1d1d1;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #a259ff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Common Button Style */
+.logout-button,
+.login-button,
+.register-button,
+.profile-button {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Individual Button Colors */
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.logout-button:hover {
+  background-color: #b02a37;
+}
+
+.login-button,
+.register-button,
+.profile-button {
+  background-color: #a259ff;
+  color: white;
+  border: none;
+}
+
+.login-button:hover,
+.register-button:hover,
+.profile-button:hover {
+  background-color: #7f36db;
+}

@@ -1,0 +1,19 @@
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.about-container h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  margin-bottom: 1rem;
+  color: #333;
+  line-height: 1.6;
+}

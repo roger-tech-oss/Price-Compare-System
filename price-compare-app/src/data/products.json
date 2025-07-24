@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15",
+    "price": 1099,
+    "source": "Amazon"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": 899,
+    "source": "Flipkart"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 8",
+    "price": 799,
+    "source": "BestBuy"
+  }
+]
